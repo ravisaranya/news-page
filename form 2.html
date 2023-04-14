@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form 2</title>
+    <style>
+        table, th, td {
+            border:1px solid black;
+            
+        }
+    </style>
+</head>
+<body>
+
+    <h2> Novell Services Login</h2><br><br>
+    <table style="width:700px height=400px">
+        <tr>
+            <td>Name:</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Passwpord</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>City of Employement</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Web server</td>
+            <td><select name="please select" id="please select">
+                <option value="Please Select">Please Select</option>
+                <option value="mobile 1">Mobile 1</option>
+                <option value="mobile 2">Mobile 2</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td rowspan="3">Please specify your role</td>
+             <td rowspan="3"><input type="radio" id="admin" name="role" value="Admin">
+                <label for="admin">Admin</label><br>
+                <input type="radio" id="engineer" name="role" value="Engineer">
+                <label for="engineer">Engineer</label><br>
+                <input type="radio" id="manager" name="role" value="Manager">
+                <label for="manager">Manager</label><br>
+                <input type="radio" id="guest" name="role" value="Guest">
+                <label for="guest">Guest</label></td> 
+        </tr>
+        <tr>
+            <!-- <td>k</td> -->
+            <!-- <td>l</td> -->
+        </tr>
+        <tr>
+            <!-- <td>m</td> -->
+            <!-- <td>n</td> -->
+        </tr>
+        <tr>
+            <td rowspan="2">Single sign-on<br> to the following</td>
+            <td rowspan="3">
+                <input type="checkbox" id="mail" name="service" value="Mail">
+                <label for="mail">Mail</label>
+                <input type="checkbox" id="payroll" name="service" value="Payroll">
+                <label for="payroll">Payroll</label>
+                <input type="checkbox" id="self service" name="service" value="Self Service">
+                <label for="self service">Self Service</label>
+            </td>
+        </tr>
+        <tr>
+            <!-- <td>q</td> -->
+            <!-- <td>r</td> -->
+        </tr>
+    </table><br><br>
+
+    
+    <input type="submit" value="login">
+    <input type="reset" value="Reset"></right>
+
+    
+</body>
+</html>
